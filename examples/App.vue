@@ -18,7 +18,7 @@
                 <router-link class="font-semibold text-gray-700 hover:underline" :to="{name: 'foreign-login-account'}">Login Account</router-link>
             </div>
             <div class="mt-2">
-                <a target="_blank" href="https://github.com/curder/ava-vue-register-component" class="text-sm font-semibold text-gray-600 hover:underline">Source on GitHub</a>
+                <a target="_blank" href="https://github.com/curder/ava-vue-foreign-account-component" class="text-sm font-semibold text-gray-600 hover:underline">Source on GitHub</a>
             </div>
         </div>
     </div>
