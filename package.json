@@ -1,6 +1,6 @@
 {
-  "name": "@curder/ava-vue-register-component",
-  "description": "ava vue注册组件",
+  "name": "@curder/ava-vue-foreign-account-component",
+  "description": "ava vue 国外注册",
   "author": "curder <q.curder@gmail.com>",
   "version": "0.1.0",
   "license": "MIT",
@@ -28,7 +28,9 @@
   ],
   "dependencies": {
     "core-js": "^3.3.2",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-js-modal": "^1.3.31",
+    "vue-loaders": "^3.0.2"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",

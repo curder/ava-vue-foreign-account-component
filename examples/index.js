@@ -5,8 +5,13 @@ import router from "./router";
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-import avaVueComponents from '../src/index.js';
-Vue.use(avaVueComponents);
+import Modal from 'vue-js-modal'
+Vue.use(Modal, { componentName: 'modal' })
+
+import avaVueForeignAccountComponents from '../src/index.js';
+Vue.use(avaVueForeignAccountComponents, {
+
+});
 
 new Vue({
     router,
